@@ -1,0 +1,27 @@
+#root{
+	-fx-background-color:#EEFDFD;  
+	
+}
+
+#year{
+	-fx-font-family: roboto;
+	-fx-text-fill: #FAFC6F;
+	-fx-font-weight: bold;
+	-fx-font-size: 28pt;
+	-fx-effect:dropshadow(gaussian, #BE6F9B, 2, 2, 2, 2);
+}
+
+#changeButton{
+	-fx-background-color:#BE6F9B; 
+	-fx-font-size: 12pt;
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+
+#changeButton:hover{
+	-fx-background-color:#FAFC6F; 
+	-fx-font-size: 16pt;
+	-fx-font-weight: bold;
+	-fx-text-fill: black;
+	-fx-effect:dropshadow(gaussian, #BE6F9B, 2, 2, 2, 2);
+}
